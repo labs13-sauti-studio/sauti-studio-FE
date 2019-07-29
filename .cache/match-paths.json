@@ -1,0 +1,6 @@
+[
+    {
+        "path": "/workflow/",
+        "matchPath": "/workflow/*"
+    }
+]
