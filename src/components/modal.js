@@ -88,6 +88,7 @@ function LoginModal() {
           <GoogleLoginButton
             style={loginButtonStyle}
             onClick={() =>
+              console.log("clicked")
               (window.location.href = `${process.env.GATSBY_API_URL}/auth/google`)
             }
           />
