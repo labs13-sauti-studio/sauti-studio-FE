@@ -9,7 +9,7 @@ import Profile from "./pages/Profile";
 import ContactForm from "./components/ContactForm.js";
 import Error from "./pages/Error";
 import AppBuilder from "./pages/Workflows.js";
-
+import Account from './pages/Account.js';
 // import "./App.scss";
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
           <Route path="/contact" component={ContactForm} />
           <Route path="/error" component={Error} />
           <Route path="/workflows" component={AppBuilder}/>
+          <Route path='/account' component={Account} />
         </div>
         <Footer />
       </div>

@@ -1,0 +1,86 @@
+.accountPageContainer {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    .accountHeaderMain {
+        width: 100%;
+        border-bottom: solid lightcoral 1px;
+        padding: 40px 0;
+        font-size: 3em;
+
+    }
+    .accountPageLft {
+        width: 25%;
+        padding: 40px;
+        .accountPic {
+            width: 250px;
+            height: 250px;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    }
+
+    .accountPageRgt {
+        width: 60%;
+        padding: 40px 40px 40px 0;
+        text-align: left;
+        .userInfo {
+            display: flex;
+            align-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            position: relative;
+            h1 {
+                font-size: 2em;
+                padding-right: 20px;
+            }
+            .location-icon {
+                padding-right: 5px;
+            }
+            .location {
+                display: flex;
+                color: lightgray;
+            }
+            .editBtn {
+                right: 0;
+                position: absolute;
+            }
+            .userAccount {
+                display: flex;
+                flex-direction: column;
+
+                p {
+                    margin: 6%;
+                }
+            }
+        }
+        .accountForm {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            justify-content: center;
+            margin-top: 2%;
+            
+            input {
+                margin: 5px;
+                width: 50%;
+                border: none;
+                height: 20px;
+                padding: 3px;
+                font-size: 1rem;
+            }
+        }
+        button {
+            margin-top: 2%;
+            width: 30%;
+            font-size: 1rem;
+            height: 25px;
+            border-radius: 5px;
+        }
+    }
+}

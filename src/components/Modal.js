@@ -84,6 +84,7 @@ function LoginModal() {
           <Typography variant="h6" id="modal-title">
             Sauti Studio
           </Typography>
+
           <GoogleLoginButton
             style={loginButtonStyle}
             onClick={() =>
@@ -92,7 +93,7 @@ function LoginModal() {
           />
           {/* <FacebookLoginButton
             onClick={() =>
-              (window.location.href = `${process.env.BE_API_URL}/auth/facebook`)
+              (window.location.href = `${process.env.GATSBY_API_URL}/auth/facebook`)
             }
           /> */}
 
