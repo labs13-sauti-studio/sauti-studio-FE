@@ -1,8 +1,8 @@
 import React from "react";
-import ProfileLoginOut from "./ProfileLoginOut.js";
 import { Link } from "react-router-dom";
+import ProfileOptions from "./ProfileOptions.js";
 
-const Navbar = () => {
+const ProfileNav = () => {
   return (
     <div className="navbar">
       <div className="nav-title-box">
@@ -11,10 +11,10 @@ const Navbar = () => {
         </h2>
       </div>
       <div className="nav-options">
-        <ProfileLoginOut />
+        <ProfileOptions />
       </div>
     </div>
   );
 };
 
-export default Navbar;
+export default ProfileNav;

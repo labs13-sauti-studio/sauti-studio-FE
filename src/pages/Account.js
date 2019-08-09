@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarker } from '@fortawesome/free-solid-svg-icons'
 import querystring from 'querystring';
 import  AccountForm from  '../components/AccountForm';
-import { throwStatement } from '@babel/types';
+import NavBar from '../components/Navbar';
 
 const BE_API = `${process.env.REACT_APP_BE_API_URL}/users/2`;
 const parsed = querystring.parse(window.location.pathname);
@@ -52,6 +52,8 @@ class Account extends Component {
           <p>{user.phone_number ? user.phone_number : "Update Phone Number"}</p>
         </div>
         return (
+            <>
+            <NavBar />
             <div className="accountPageContainer">
                 <h1  className="accountHeaderMain">My Account</h1>
                 <div className="accountPageLft">
@@ -74,6 +76,7 @@ class Account extends Component {
                     
                 </div>
             </div>
+            </>
         )
     }
 }
