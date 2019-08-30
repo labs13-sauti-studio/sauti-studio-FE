@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { PortWidget } from '@projectstorm/react-diagrams';
 import { Toolkit } from '@projectstorm/react-canvas-core';
-import { instanceOf } from 'prop-types';
-import { AdvancedPortModel } from '../custom-port-link-js/JSCustomPortAndLink';
+
 export class JSCustomNodeWidget extends React.Component {
 	constructor(props) {
     super(props);
@@ -235,9 +234,6 @@ export class JSCustomNodeWidget extends React.Component {
     }
     return menus;
   };
-
-  // {this.props.node.getPort(obj[key].options.name)}
-
 
 	render() {
 		return (

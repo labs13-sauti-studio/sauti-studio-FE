@@ -1,12 +1,10 @@
 import {
-  DefaultPortModel,
   NodeModel
 } from "@projectstorm/react-diagrams";
-import { Toolkit } from '@projectstorm/react-canvas-core';
-import {AdvancedPortModel, AdvancedLinkModel} from "../custom-port-link-js/JSCustomPortAndLink"
+import {AdvancedPortModel} from "../custom-port-link-js/JSCustomPortAndLink"
 import * as _ from "lodash";
 export class JSCustomNodeModel extends NodeModel {
-  constructor(options = {}) {
+  constructor(options) {
     super({
       ...options,
       type: "js-custom-node"

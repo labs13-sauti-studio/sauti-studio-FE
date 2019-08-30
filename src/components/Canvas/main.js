@@ -1,6 +1,13 @@
 import * as React from "react";
 import { connect } from "react-redux";
-import { saveCanvas, getCanvasById, deleteProject, setDeleteState, setSimulationState, saveTitle, getTitleById, publishCanvas } from "../../actions";
+import { saveCanvas,
+   getCanvasById, 
+   deleteProject, 
+   setDeleteState, 
+   setSimulationState, 
+   saveTitle, 
+   getTitleById, 
+   publishCanvas } from "../../actions";
 import DeleteModal from "../DeleteModal.js";
 import SimulationModal from "../SimulationModal.js";
 
@@ -10,7 +17,7 @@ import createEngine, {
   DefaultLinkFactory,
   DefaultLinkModel,
   PointModel,
-  DeleteItemsAction
+  // DeleteItemsAction
 } from "@projectstorm/react-diagrams";
 import {AdvancedLinkFactory} from "./custom-port-link-js/JSCustomPortAndLink"
 
@@ -116,7 +123,6 @@ class CustomExample extends React.Component {
         
   saveCanvas = () => {
     let savedCanvas = cerealBox.serialize();
-    // console.log("savedCanvas------------", savedCanvas);
     let key, objUpdate, parent_id = null;
     for (key in savedCanvas.layers[1].models) {
       if (savedCanvas.layers[1].models[key].is_parent === true){
@@ -138,8 +144,7 @@ class CustomExample extends React.Component {
 
   publishCanvas = () => {
     let savedCanvas = cerealBox.serialize();
-    console.log("savedCanvas------------", savedCanvas);
-    let count = 0, key, objUpdate, parent_id = null;
+    let key, objUpdate, parent_id = null;
     
     for (key in savedCanvas.layers[1].models) {
       if (savedCanvas.layers[1].models[key].is_parent === true){
@@ -152,7 +157,6 @@ class CustomExample extends React.Component {
         user_id: this.props.user_id,
         initial_node_id: parent_id 
       }
-    console.log("PROJECT_ID", this.props.project_id)
     this.props.publishCanvas(objUpdate, this.props.project_id);
 
   }
@@ -163,7 +167,6 @@ class CustomExample extends React.Component {
     newItem.provideDescription("Enter Description...");
     newItem.setPosition(0, 0);
     cerealBox.addNode(newItem);
-    // this.saveCanvas();
     engine.repaintCanvas();
   };
   
@@ -374,7 +377,6 @@ class CustomExample extends React.Component {
               ></i>
             </div>
             </div>
-
         </section>
         
         {
@@ -412,25 +414,3 @@ export default connect(
   mapStateToProps,
   { saveCanvas, getCanvasById, deleteProject, setDeleteState, setSimulationState, saveTitle, getTitleById, publishCanvas }
 )(CustomExample); 
-
-
-        // Handle Project canvas update on initial load
-        // if(this.props.project_id !== prevProps.project_id && this.props.fetching !== prevProps.fetching && this.props.fetching === false && this.props.graph_json !== null){
-        //     cerealBox = new DiagramModel();
-        //     cerealBox.deserializeModel(this.props.graph_json, engine);
-        //     engine.setModel(cerealBox);
-        // }
-
-        // Handle Project canvas update on initial load
-        // if(this.props.project_id !== prevProps.project_id && this.props.fetching !== prevProps.fetching && this.props.fetching === false && this.props.graph_json !== null && this.props.graph_json !== prevProps.graph_json){
-        //   cerealBox = new DiagramModel();
-        //     cerealBox.deserializeModel(this.props.graph_json, engine);
-        //     engine.setModel(cerealBox);
-        // }
-        
-        // Update JSON
-        // if(this.props.graph_json !== null && this.props.graph_json !== prevProps.graph_json){
-          //     cerealBox = new DiagramModel();
-          //     cerealBox.deserializeModel(this.props.graph_json, engine);
-          //     engine.setModel(cerealBox);
-          // }
