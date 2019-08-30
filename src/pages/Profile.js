@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 
-import { getProjectsByUserId,addProjectByUserId,setProjectId,setUserId } from "../actions";
+import { getProjectsByUserId, addProjectByUserId, setProjectId, setUserId } from "../actions";
 
 import Navbar from '../components/Navbar';
 class Profile extends React.Component {
@@ -10,20 +10,20 @@ class Profile extends React.Component {
     projects: null
   }
 
-  getCookies = () =>{
-    let pairs = document.cookie.split(";");
-    let cookies = {};
-    for (let i=0; i<pairs.length; i++){
-      let pair = pairs[i].split("=");
-      cookies[(pair[0]+'').trim()] = unescape(pair.slice(1).join('='));
-    }
-    return cookies;
-  }
+  // getCookies = () =>{
+  //   let pairs = document.cookie.split(";");
+  //   let cookies = {};
+  //   for (let i=0; i<pairs.length; i++){
+  //     let pair = pairs[i].split("=");
+  //     cookies[(pair[0]+'').trim()] = unescape(pair.slice(1).join('='));
+  //   }
+  //   return cookies;
+  // }
 
   componentDidMount(){
     // let user_id = Number(this.getCookies().user_id);
+    // grabbing user_id from url 
     let user_id = Number(window.location.pathname.split("/").pop());
-    console.log("user_id",user_id);
     // On page load request users projects 
     if(user_id){
       if(this.props.user_id !== null && (this.props.user_id === user_id)){
@@ -39,8 +39,8 @@ class Profile extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState){
+    // grabbing user_id from url 
     let user_id = Number(window.location.pathname.split("/").pop());
-    console.log("user_id",user_id);
     if(user_id){
       // On Create New Project: request projects
       if(this.props.added_project !== prevProps.added_project && !this.props.added_project){
