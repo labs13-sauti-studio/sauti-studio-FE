@@ -37,14 +37,12 @@ class SimulationModal extends React.Component {
 					user_id: this.props.user_id,
 					text: this.state.text
 				};
-				console.log(reqBody);
 				axios
 					.post(
 						`${process.env.REACT_APP_BE_API_URL}/workflows/sim/${this.props.project_id}`,
 						reqBody
 					)
 					.then(response => {
-                        console.log(response)
                         this.setState({ incoming: response.data });
                         this.setState({ text: ''})
 					})

@@ -33,14 +33,14 @@ export class AdvancedPortModel extends PortModel {
 		this.label = this.options.label;
 		this.locked = this.options.locked;
 	  }
-
+	// read port
 	deserialize(event) {
 		super.deserialize(event);
 		this.options.in = event.data.in;
 		this.options.label = event.data.label;
 		this.options.locked = event.data.locked;
 	}
-
+	// save port
 	serialize() {
 		return {
 			...super.serialize(),
@@ -50,19 +50,19 @@ export class AdvancedPortModel extends PortModel {
 		};
 	}
 
-	link(port, factory){
-		let link = this.createLinkModel(factory);
-		link.setSourcePort(this);
-		link.setTargetPort(port);
-		return link;
-	}
+	// link(port, factory){
+	// 	let link = this.createLinkModel(factory);
+	// 	link.setSourcePort(this);
+	// 	link.setTargetPort(port);
+	// 	return link;
+	// }
 
-	canLinkToPort(port){
-		if (port) {
-			return this.options.in !== port.getOptions().in;
-		}
-		return true;
-	}
+	// canLinkToPort(port){
+	// 	if (port) {
+	// 		return this.options.in !== port.getOptions().in;
+	// 	}
+	// 	return true;
+	// }
 
 	createLinkModel(factory){
 		let maxLinks = 1;
@@ -71,6 +71,7 @@ export class AdvancedPortModel extends PortModel {
 		for(let key in links){
 			number = number + links[key].renderedPaths.length;
 		}
+		// maxlinks = amount of links per port set to 1
 		if(maxLinks > number){
 			let link = new AdvancedLinkModel();
 			if (!link && factory) {
@@ -87,7 +88,7 @@ export class AdvancedLinkFactory extends DefaultLinkFactory {
 	constructor() {
 		super('advanced');
 	}
-
+	
 	generateModel() {
 		return new AdvancedLinkModel();
 	}

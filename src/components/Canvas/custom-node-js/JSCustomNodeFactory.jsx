@@ -6,7 +6,7 @@ export class JSCustomNodeFactory extends AbstractReactFactory {
 	constructor() {
 		super('js-custom-node');
 	}
-	generateModel(event) {
+	generateModel() {
 		return new JSCustomNodeModel();
 	}
 	generateReactWidget(event) {
