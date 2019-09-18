@@ -4,11 +4,11 @@ You can find the deployed project at [Sauti Design Studio](https://sautistudio.n
 
 ## Contributors
 
-|                                       [Juru Mugenzi](https://github.com/jurusteve)                                        |                                       [Tristan Grovender](https://github.com/tristangrovender)                                        |                                       [Garrett Weems](https://github.com/glweems)                                        |                                       [Tohm Lev](https://github.com/tohmlev)                                        |                                       [Alan Perez](https://github.com/alanperez)                                        |
-| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
-|                      [<img src="https://avatars1.githubusercontent.com/u/19935372?s=460&v=4" width = "200" />](https://github.com/)                       |                      [<img src="https://avatars0.githubusercontent.com/u/46428421?s=460&v=4" width = "200" />](https://github.com/)                       |                      [<img src="https://avatars1.githubusercontent.com/u/32476858?s=460&v=4" width = "200" />](https://github.com/)                       |                      [<img src="https://avatars1.githubusercontent.com/u/49999093?s=460&v=4" width = "200" />](https://github.com/)                       |                      [<img src="https://avatars2.githubusercontent.com/u/25354218?s=400&v=4" width = "200" />](https://github.com/)                       |
-|                 [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/jurusteve)                 |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tristangrovender)             |           [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/glweems)            |          [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/tohmlev)           |            [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/alanperez)             |
-| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/jurustevemugenzi/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/tristan-grovender-440a54173/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/garrett-weems-ab2106164) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/tohm-lev-18666a67/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/alan-perez-25a198185/) |
+|[Kevin Tena](https://github.com/kevten22)|[Austin Howes](https://github.com/austie702)|[Amber Meador](https://github.com/nek0senpa1)|[Leianne Louis](https://github.com/leianne)|[Sean Kennedy](https://github.com/skennedy93)| [Thomas Claydon](https://github.com/gittc100)| 
+| :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: |
+|[<img src="https://avatars0.githubusercontent.com/u/36459496?s=400&v=4" width = "200" />](https://github.com/kevten22)|[<img src="https://media.licdn.com/dms/image/C4E03AQEFOwyBzZSi_A/profile-displayphoto-shrink_800_800/0?e=1572480000&v=beta&t=dj9oTr66FidYvkw8MxewVTGOIHVmCAZCGALsE9HzoeM" width = "200" />](https://github.com/austie702) | [<img src="https://avatars2.githubusercontent.com/u/44776869?s=400&v=4" width = "200" />](https://github.com/nek0senpa1)| [<img src="https://avatars0.githubusercontent.com/u/26041727?s=400&v=4" width = "200" />](https://github.com/leianne)|[<img src="https://avatars0.githubusercontent.com/u/38869679?s=400&v=4" width = "200" />](https://github.com/skennedy93)| [<img src="https://avatars3.githubusercontent.com/u/37307521?s=400&u=81331a855611530734a0268c3fda7893e2aa12cd&v=4" width = "200" />](https://github.com/gittc100)|
+| [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/kevten22)|[<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/austie702)|[<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/nek0senpa1) | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/leianne)| [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/skennedy93)| [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/gittc100)|
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/kevintena22/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/austinhowes/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/amber-meador-62075213a/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/leiannelouis/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/sean-kennedy-8a9383136/) | [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/thomas-claydon/) |
 
 <br>
 <br>
@@ -16,9 +16,9 @@ You can find the deployed project at [Sauti Design Studio](https://sautistudio.n
 
 ## Project Overview
 
-[Trello Board](https://trello.com/b/Kt9QUwpw/labs13-sauti-studio)
+[Trello Board](https://trello.com/b/4HBS1AfL/sauti-design)
 
-[Product Canvas](https://projects.invisionapp.com/share/YAS77O8SMTK#/screens)
+[Product Canvas](https://www.notion.so/Sauti-Design-Studio-f83f84ecef3c4e51b07a1a941580c306)
 
 Sauti Studio + Design is a desktop product that aims to serve the East African communities by providing a simple tool that will allow individuals with no programming skills to build and customise a text based app to share information and knowledge. Sauti Studio + Design encourages anyone who experience the problems stemming from lack of information to take a stand and design their own solutions by laying out a USSD text-flow that can be accessed via simple phone.
 
@@ -28,20 +28,13 @@ Essentially, Sauti Studio + Design is a digital tool that will provide a  UI for
 
 ### Front end built using:
 
-#### React/Gatsbyjs
-
-Why did you choose this framework?
-
-- Server-side rendering
-- Quick loading times
-- Industry standard
-- SEO
+#### React/Redux
 
 #### Front end deployed to `Netlify`
 
-#### [Back end](https://github.com/labs13-sauti-studio/labs13-sauti-studio-BE) built using:
+#### [Back end](https://github.com/labs13-sauti-studio/sauti-studio-BE) built using:
 
-#### Express JS
+#### Express/Node.js
 
 - Express has a large community of users.
 - Express is the most matured framework for Node.js with 5+ years of use.
@@ -60,33 +53,35 @@ Why did you choose this framework?
 
 Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more.
 
+## Diagramming
+
+### [projectstorm react-diagrams](https://github.com/projectstorm/react-diagrams)
+
+Recently Developed by Dylan Voster, he is accessible via this [Gitter Page](https://gitter.im/projectstorm/react-diagrams). 
+
+A flow & process orientated diagramming library inspired by Blender, Labview and Unreal engine.
+
+- Modern Codebase written entirely in Typescript and React, the library makes use of powerful generics, advanced software engineering principles and is broken up into multiple modules.
+- Hackable and extensible the entire library including its core can be extended, rewired and re-assembled into fundamentally different software to suit your own software needs.
+- HTML nodes as a first class citizen the library was originally written to represent advanced dynamic nodes, that are difficult to represent as SVG's due to complex input requirements ux requirements.
+- Designed for process the library is aimed for software engineers that want to rewire their programs at runtime, and that want to make their software more dynamic.
+- Fast diagram editing the defaults provided give the heighest priority to editing diagrams as fast as possible.
+
 # Environment Variables
 
 In order for the app to function correctly, the user must set up their own environment variables. There should be a .env file containing the following:
 
-    *  GATSBY_API_URL=
+    *  REACT_APP_BE_API_URL='http://localhost:5000' OR Production Route 
     
 # Installation Instructions
 
-`yarn install`
-or
-`npm install`
+`yarn install` - to install dependencies
 
-## Other Scripts
-
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "lint": "eslint .",
-    "lint:fix": "eslint --ignore-path .gitignore . --fix",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+`yarn start` - to start local application
 
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
-Please note we have a [code of conduct](./CODE_OF_CONDUCT.md). Please follow it in all your interactions with the project.
 
 ## Issue/Bug Request
 
@@ -120,7 +115,7 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](https://github.com/labs13-sauti-studio/labs13-sauti-studio-BE/blob/master/README.md) for details on the backend of our project.
+See [Backend Documentation](https://github.com/labs13-sauti-studio/sauti-studio-BE/blob/master/README.md) for details on the backend of our project.
 ```
 
 ```
